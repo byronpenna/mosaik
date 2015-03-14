@@ -12,6 +12,9 @@
 .green{
 	background: green;
 }
+.imgLogo{
+		width: 50%;
+	}
 /*Diseño */
 	/* Menu section */
 		.menuSection{
@@ -21,10 +24,12 @@
 		.menuSection div{
 			padding-top:3%;
 			padding-bottom:3%;
+			font-weight: bold;
 		}
 		.menuSection div:nth-child(3){
 			border: none;
 		}
+
 		.menuSection div,.rowFooter h2:nth-child(1){
 			font-family: 'MS Reference Sans Serif';
 		}

@@ -28,7 +28,7 @@
 					</div>
 				</div>	
 			</div>
-			<div class="row ComingRow pink">
+			<div class="row ComingRow">
 				<div class="col-lg-4">
 					
 				</div>
@@ -39,7 +39,7 @@
 					
 				</div>
 			</div>
-			<div class="row rowFooter green">
+			<div class="row rowFooter">
 				<h2>For Amazing Ideas Contact Us</h2>
 				<h2>info@MosaikDesigns.com</h2>
 			</div>
