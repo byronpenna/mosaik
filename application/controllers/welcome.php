@@ -1,6 +1,6 @@
 <?php 
-include_once(APPPATH.'controllers/padre.php');
-class Welcome extends padre {
+include_once(APPPATH.'controllers/Padre.php');
+class Welcome extends Padre {
 	public function index()
 	{
 		$this->load->view('index/index');

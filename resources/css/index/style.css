@@ -25,23 +25,40 @@
 		.menuSection div:nth-child(3){
 			border: none;
 		}
+		.menuSection div,.rowFooter h2:nth-child(1){
+			font-family: 'MS Reference Sans Serif';
+		}
 		.menuSection div{
-			border-right: solid black; 
+			border-right: solid #bebebe 1px; 
+			
 		}
 	/* Coming row */
 		.comingText{
 			text-transform: uppercase;
 			font-size: 1em;
 			text-align: center;
+			color: #323386;
+			font-weight: bold;
 		}
 		.ComingRow{
 			margin-top: 3%;
+		}
+	/*Footer */
+		.rowFooter{
+			text-align: center;
+		}
+		.rowFooter h2{
+			font-size: 1em;
+			margin: 0;
+		}
+		.rowFooter h2:nth-child(1){
+			color: #2e3188;
 		}
 .menuRow{
 	margin-top: 15%;
 }
 .main{
-	margin-top: 10%;
+	margin-top: 8%;
 }
 .logoSection{
 	text-align: center;
