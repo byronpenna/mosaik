@@ -13,10 +13,32 @@
 	background: green;
 }
 /*Diseño */
-.menuSection{
-	background: green;
-	padding-top:3%;
-	padding-bottom:3%;
+	/* Menu section */
+		.menuSection{
+			/*background: green;*/
+			
+		}
+		.menuSection div{
+			padding-top:3%;
+			padding-bottom:3%;
+		}
+		.menuSection div:nth-child(3){
+			border: none;
+		}
+		.menuSection div{
+			border-right: solid black; 
+		}
+	/* Coming row */
+		.comingText{
+			text-transform: uppercase;
+			font-size: 1em;
+			text-align: center;
+		}
+		.ComingRow{
+			margin-top: 3%;
+		}
+.menuRow{
+	margin-top: 15%;
 }
 .main{
 	margin-top: 10%;
