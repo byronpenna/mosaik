@@ -1,0 +1,26 @@
+/*Colores de prueba*/
+
+.pink{
+	background: pink;
+}
+.red{
+	background: red;
+}
+.blue{
+	background: blue;
+}
+.green{
+	background: green;
+}
+/*Diseño */
+.menuSection{
+	background: green;
+	padding-top:3%;
+	padding-bottom:3%;
+}
+.main{
+	margin-top: 10%;
+}
+.logoSection{
+	text-align: center;
+}
