@@ -1,10 +1,6 @@
 @media(min-width:200px) and (max-width:300px){
 	
-	.menuText{
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
+	
 
 	.imgLogo{
 		width: 70%;
@@ -22,13 +18,9 @@
 
 @media(min-width:300px) and (max-width:400px){
 	
-	.menuText{
-		display: block;
-		width: 100%;
-		text-align: center;
-	}
+	
 	.menuSection div{
-		border-right:  none;
+		/*border-right:  none;*/
 	}
 	.menuRow{
 		margin-top: 10%;
@@ -38,10 +30,28 @@
 		/*background: green;*/
 	}
 	.menuSection div{
-		font-size: 1.3em;
+		font-size: 0.58em;
 	}
 	.imgLogo{
 		width: 100%;
+	}
+	.todo{
+		padding: 0;
+	}
+	.sloganSection{
+		font-size: 1em;
+	}
+	.rowFooter h2{
+		font-size: 0.8em;
+	}
+	.comingText{
+		font-size: 0.8em;
+	}
+	.menuSection{
+		padding: 0;
+	}
+	body{
+		/*background: pink;*/
 	}
 }
 @media(min-width:400px) and (max-width:500px){
@@ -74,9 +84,7 @@
 	.imgLogo{
 		width: 90%;
 	}
-	body{
-		/*background: pink;*/
-	}
+	
 }
 @media(min-width:500px) and (max-width:600px){
 
