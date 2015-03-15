@@ -5,7 +5,7 @@
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/bootstrap/css/bootstrap.css") ?>>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/style.css") ?>>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/media.css") ?>>
-
+	<meta name="viewport" content="width=device-width">
 </head>
 <body>
 	<div class='container-fluid main'>
@@ -17,13 +17,13 @@
 			</div>
 			<div class="row menuRow">
 				<div class="container-fluid menuSection ">
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left ">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left menuText ">
 						<span>Corporate Image</span>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center menuText">
 						<span>Marketing Solutions</span>
 					</div>
-					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right menuText">
 						<span>Web Development</span>
 					</div>
 				</div>	

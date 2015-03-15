@@ -1,7 +1,86 @@
-@media(min-width:600px) and (max-width:700px){
+@media(min-width:200px) and (max-width:300px){
 	body{
 		background: pink;
+	}	
+	.menuText{
+		display: block;
+		width: 100%;
+		text-align: center;
 	}
+
+	.imgLogo{
+		width: 70%;
+	}
+	.logoSection{
+		margin-left: 0;
+		width: 100%;
+		/*background: purple;*/
+	}
+	.main{
+		margin-top: 12%;
+		/*background: green;*/
+	}
+}
+
+@media(min-width:300px) and (max-width:400px){
+	
+	.menuText{
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+	.menuSection div{
+		border-right:  none;
+	}
+	.menuRow{
+		margin-top: 10%;
+	}
+	.main{
+		margin-top: 10%;
+		/*background: green;*/
+	}
+	.menuSection div{
+		font-size: 1.3em;
+	}
+	.imgLogo{
+		width: 100%;
+	}
+}
+@media(min-width:400px) and (max-width:500px){
+	.menuSection div{
+		border-right:  none;
+	}
+	.main{
+		margin-top: 15%;
+	}
+	.menuText{
+		display: block;
+		width: 100%;
+		text-align: center;
+
+	}
+	.menuRow{
+		margin-top: 10%;
+	}
+	.menuSection div{
+		font-size: 1.3em;
+	}
+	.imgLogo{
+		width: 90%;
+	}
+}
+@media(min-width:500px) and (max-width:600px){
+
+	.menuSection div{
+		font-size: 0.8em;		
+	}
+	.main{
+		margin-top: 15%;
+	}
+}
+
+@media(min-width:600px) and (max-width:700px){
+	
 	.main{
 		margin-top: 8%;
 	}
