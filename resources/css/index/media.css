@@ -52,9 +52,7 @@
 	.menuSection{
 		padding: 0;
 	}
-	body{
-		background: pink;
-	}
+	
 	
 }
 @media(min-width:400px) and (max-width:500px){
@@ -87,7 +85,10 @@
 	.imgLogo,.imgLogoMovil{
 		width: 90%;
 	}
-
+	.comingText{
+		font-size: 1.2em;
+	}
+	
 }
 @media(min-width:500px) and (max-width:600px){
 
@@ -95,7 +96,11 @@
 		font-size: 0.8em;		
 	}
 	.main{
-		margin-top: 15%;
+		margin-top: 5%;
+	}
+	
+	.imgLogo, .imgLogoMovil{
+		width: 90%;
 	}
 }
 
@@ -105,26 +110,35 @@
 		margin-top: 8%;
 	}
 
+
 }
 @media(min-width:700px) and (max-width:800px){
 	.imgLogo,.imgLogoMovil{
 		width: 60%;
 	}
+	.menuSection{
+		padding: 0;
+	}
 	.menuSection div{
 		font-size: 0.9em;		
 	}
 	.menuRow{
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 	.main{
 		margin-top: 5%;
 	}
+	.imgLogo, .imgLogoMovil{
+		width: 80%;
+	}
 	
 }
 @media(min-width:800px) and (max-width:900px){
+
 	.main{
 		margin-top: 8%;
 	}
+
 
 }
 @media(min-width:900px) and (max-width:1000px){
@@ -141,23 +155,41 @@
 		font-size: 0.8em;		
 	}
 	.main{
-		margin-top: 7%;
+		margin-top: 5%;
 	}
-
+	.imgLogo, .imgLogoMovil{
+		width: 90%;
+	}
+	
 	
 }
 @media(min-width:1100px) and (max-width:1200px){
-	
+	body{
+		background: pink;
+	}
+	.main{
+		margin-top: 2.5%;
+	}
+	.imgLogo, .imgLogoMovil{
+		width: 90%;
+	}
 }
 
 @media(min-width:1200px) and (max-width:1300px){
-	
+	.imgLogo, .imgLogoMovil{
+		width: 80%;
+	}
+	.main{
+		margin-top: 2.5%;
+	}
 	body{
 		/*background: red;*/
 	}
 }
 @media(max-width:400px){
-	
+	.comingText{
+		font-size: 1em;
+	}
 	.imgLogoMovil{
 		display: block;
 	}

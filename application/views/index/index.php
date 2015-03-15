@@ -18,7 +18,7 @@
 					</div>			
 				</div>
 				<div class="row sloganSection">
-					Making Your Ideas Awesomely Simple
+					Making Your Ideas Amazingly Simple
 				</div>
 			</div>
 			<div class="row menuRow">
