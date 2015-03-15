@@ -165,7 +165,7 @@
 }
 @media(min-width:1100px) and (max-width:1200px){
 	body{
-		background: pink;
+		/*background: pink;*/
 	}
 	.main{
 		margin-top: 2.5%;

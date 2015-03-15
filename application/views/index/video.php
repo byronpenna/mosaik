@@ -13,9 +13,11 @@
 	</script>
 </head>
 <body >
-	<video autoplay loop  id="bgvid"> <!-- poster="polina.jpg"-->
-			<!-- <source src="polina.webm" type="video/webm"> -->
-		<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?> type="video/mp4" >
+	<!-- autoplay loop -->
+	<video   id="bgvid"> <!-- poster="polina.jpg"-->
+		<source src=<?php echo base_url("resources/videos/mosaik_loop_smallwebm.webm") ?>>
+		<source src=<?php echo base_url("resources/videos/mosaik_loop_smallwebm.webm") ?> > <!-- type="video/webm" -->
+		<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?>  ><!--type="video/mp4"-->
 	</video>
 
 </body>
