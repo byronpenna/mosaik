@@ -8,6 +8,12 @@
 	<meta name="viewport" content="width=device-width">
 </head>
 <body>
+	<div class="intro">
+		<img src=<?php echo base_url("resources/img/index/solo-borde.png")?> class='imgLooop'>	
+		<video  autoplay loop muted id="bgvid"> <!-- poster="polina.jpg"-->
+			<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?> type="video/mp4"  ><!---->
+		</video>
+	</div>
 	<div class='container-fluid main todo'>
 		<div class="cuerpo col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">
 			<div class="row">
