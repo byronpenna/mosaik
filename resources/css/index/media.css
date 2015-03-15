@@ -18,7 +18,9 @@
 
 @media(min-width:300px) and (max-width:400px){
 	
-	
+	.logoSection{
+		padding: 0;
+	}
 	.menuSection div{
 		/*border-right:  none;*/
 	}
@@ -49,6 +51,9 @@
 	}
 	.menuSection{
 		padding: 0;
+	}
+	body{
+		background: pink;
 	}
 	
 }
@@ -152,9 +157,7 @@
 	}
 }
 @media(max-width:400px){
-	body{
-		/*background: pink;*/
-	}
+	
 	.imgLogoMovil{
 		display: block;
 	}

@@ -3,7 +3,7 @@ include_once(APPPATH.'controllers/Padre.php');
 class Welcome extends Padre {
 	public function index()
 	{
-		$this->load->view('index/index');
+		$this->load->view('index/video');
 	}
 }
 

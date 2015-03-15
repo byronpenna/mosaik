@@ -3,8 +3,7 @@ include_once(APPPATH.'controllers/Padre.php');
 class Main extends Padre
 {
 	
-	function __construct()
-	{
-		# code...
+	public function index(){
+		$this->load->view('index/index');
 	}
 }
