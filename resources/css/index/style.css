@@ -16,7 +16,12 @@
 	width: 70%;
 }
 /*Diseño */
-	
+	.sloganSection{
+		margin-top: 5%;
+		text-align: center;
+		font-family: 'Adobe Devanagari';
+		font-size: 1.5em;
+	}
 	/* Menu section */
 		.menuSection{
 			/*background: green;*/
@@ -82,10 +87,11 @@
 			border-top-color: red;
 		}
 .menuRow{
-	margin-top: 15%;
+	margin-top: 8%;
 }
 .main{
-	margin-top: 4.5%;
+	margin-top: 3.5%;
+
 }
 .logoSection{
 	text-align: center;
