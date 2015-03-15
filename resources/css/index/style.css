@@ -13,9 +13,10 @@
 	background: green;
 }
 .imgLogo{
-		width: 50%;
-	}
+	width: 70%;
+}
 /*Diseño */
+	
 	/* Menu section */
 		.menuSection{
 			/*background: green;*/
@@ -25,6 +26,7 @@
 			padding-top:3%;
 			padding-bottom:3%;
 			font-weight: bold;
+			font-size: 0.9em;
 		}
 		.menuSection div:nth-child(3){
 			border: none;
@@ -51,6 +53,7 @@
 	/*Footer */
 		.rowFooter{
 			text-align: center;
+			margin-top: 5%;
 		}
 		.rowFooter h2{
 			font-size: 1em;
@@ -59,11 +62,30 @@
 		.rowFooter h2:nth-child(1){
 			color: #2e3188;
 		}
+	/* Formas */
+		.diamond {
+			width: 0;
+			height: 0;
+			border: 50px solid transparent;
+			border-bottom-color: red;
+			position: relative;
+			top: -50px;
+		}
+		.diamond:after {
+			content: '';
+			position: absolute;
+			left: -50px;
+			top: 50px;
+			width: 0;
+			height: 0;
+			border: 50px solid transparent;
+			border-top-color: red;
+		}
 .menuRow{
 	margin-top: 15%;
 }
 .main{
-	margin-top: 8%;
+	margin-top: 4.5%;
 }
 .logoSection{
 	text-align: center;

@@ -8,22 +8,22 @@
 
 </head>
 <body>
-	<div class='container-fluid main '>
-		<div class="cuerpo col-lg-offset-3 col-lg-6 ">
+	<div class='container-fluid main'>
+		<div class="cuerpo col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-offset-1 col-xs-10">
 			<div class="row">
-				<div class="col-lg-offset-3 col-lg-6 logoSection ">
+				<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-3 col-xs-6 logoSection">
 					<img src=<?php echo base_url("resources/img/index/mosaikLogo.png")?> class='imgLogo'>			
 				</div>		
 			</div>
 			<div class="row menuRow">
 				<div class="container-fluid menuSection ">
-					<div class="col-lg-4 text-left ">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-left ">
 						<span>Corporate Image</span>
 					</div>
-					<div class="col-lg-4 text-center">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-center">
 						<span>Marketing Solutions</span>
 					</div>
-					<div class="col-lg-4 text-right">
+					<div class="col-lg-4 col-md-4 col-sm-4 col-xs-4 text-right">
 						<span>Web Development</span>
 					</div>
 				</div>	
