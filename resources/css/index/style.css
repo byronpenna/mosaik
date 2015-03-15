@@ -12,10 +12,13 @@
 .green{
 	background: green;
 }
-.imgLogo{
+.imgLogo,.imgLogoMovil{
 	width: 70%;
 }
 /*Diseño */
+	.imgLogoMovil{
+		display: none;
+	}
 	.sloganSection{
 		margin-top: 5%;
 		text-align: center;

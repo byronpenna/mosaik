@@ -2,7 +2,7 @@
 	
 	
 
-	.imgLogo{
+	.imgLogo,.imgLogoMovil{
 		width: 70%;
 	}
 	.logoSection{
@@ -32,7 +32,7 @@
 	.menuSection div{
 		font-size: 0.58em;
 	}
-	.imgLogo{
+	.imgLogo,.imgLogoMovil{
 		width: 100%;
 	}
 	.todo{
@@ -50,9 +50,7 @@
 	.menuSection{
 		padding: 0;
 	}
-	body{
-		/*background: pink;*/
-	}
+	
 }
 @media(min-width:400px) and (max-width:500px){
 	.main{
@@ -81,10 +79,10 @@
 	.menuSection div{
 		font-size: 0.60em;
 	}
-	.imgLogo{
+	.imgLogo,.imgLogoMovil{
 		width: 90%;
 	}
-	
+
 }
 @media(min-width:500px) and (max-width:600px){
 
@@ -104,7 +102,7 @@
 
 }
 @media(min-width:700px) and (max-width:800px){
-	.imgLogo{
+	.imgLogo,.imgLogoMovil{
 		width: 60%;
 	}
 	.menuSection div{
@@ -151,5 +149,16 @@
 	
 	body{
 		/*background: red;*/
+	}
+}
+@media(max-width:400px){
+	body{
+		/*background: pink;*/
+	}
+	.imgLogoMovil{
+		display: block;
+	}
+	.imgLogo{
+		display: none;
 	}
 }
