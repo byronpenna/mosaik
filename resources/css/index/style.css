@@ -57,8 +57,9 @@
 			text-transform: uppercase;
 			font-size: 1em;
 			text-align: center;
-			color: #323386;
+			color: #4f4f4f;
 			font-weight: bold;
+			font-family: 'Impact';
 		}
 		.ComingRow{
 			margin-top: 3%;
@@ -73,7 +74,7 @@
 			margin: 0;
 		}
 		.rowFooter h2:nth-child(1){
-			color: #2e3188;
+			/*color: #2e3188;*/
 		}
 	/* Formas */
 		.diamond {
@@ -112,6 +113,7 @@
 	/*position: relative;*/
 	min-height: auto;
 	margin: 0 auto;
+	/*display: none;*/
 }
 .imgLooop,.imgLooop2{
 	width: 100%;

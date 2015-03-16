@@ -25,7 +25,7 @@
 			<div class="row">
 				<div class="row">
 					<div class="col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-3 col-sm-6 col-xs-offset-3 col-xs-6 logoSection">
-						<img src=<?php echo base_url("resources/img/index/mosaikLogo.png")?> class='imgLogo'>			
+						<img src=<?php echo base_url("resources/img/index/Logo_frankfurt.png")?> class='imgLogo'>			
 						<img src=<?php echo base_url("resources/img/index/Logo_frankfurt.png")?> class='imgLogoMovil'>			
 					</div>			
 				</div>

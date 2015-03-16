@@ -61,12 +61,15 @@
 		margin-top: 15%;
 		width: 100%;
 	}
-	
+
 	
 }
 @media(min-width:400px) and (max-width:500px){
 	.main{
 		margin-top: 15%;
+	}
+	body{
+		background: pink;
 	}
 	/*.menuText{
 		display: block;
@@ -119,20 +122,24 @@
 		margin-top: 15%;
 		width: 100%;
 	}
-	
+	.comingText{
+		font-size: 1.5em;
+	}
 }
 
 @media(min-width:600px) and (max-width:700px){
 	
 	.main{
-		margin-top: 8%;
+		margin-top: 1%;
 	}
 	.intro{
 		margin-top: 5%;
 		width: 100%;
 	}
+	.comingText{
+		font-size: 1.5em;
+	}
 	
-
 }
 @media(min-width:700px) and (max-width:800px){
 	.imgLogo,.imgLogoMovil{
@@ -157,17 +164,22 @@
 		/*margin-top: 3%;*/
 		width: 100%;
 	}
-	
+	.comingText{
+		font-size: 1.5em;
+	}
 	
 }
 @media(min-width:800px) and (max-width:900px){
 
 	.main{
-		margin-top: 8%;
+		margin-top: 2%;
 	}
 	.intro{
 		/*margin-top: 3%;*/
 		width: 90%;
+	}
+	.comingText{
+		font-size: 2em;
 	}
 	
 
@@ -177,13 +189,14 @@
 		font-size: 0.79em;		
 	}
 	.main{
-		margin-top: 6%;
+		margin-top: 1%;
 	}
 	.intro{
 		margin-top: 7%;
 	}
-	body{
-		background: pink;
+	
+	.comingText{
+		font-size: 2em;
 	}
 }
 @media(min-width:1000px) and (max-width:1100px){
@@ -191,7 +204,7 @@
 		font-size: 0.8em;		
 	}
 	.main{
-		margin-top: 5%;
+		margin-top: 1%;
 	}
 	.imgLogo, .imgLogoMovil{
 		width: 90%;
@@ -199,6 +212,10 @@
 	.intro{
 		margin-top: 7%;
 	}
+	.comingText{
+		font-size: 2em;
+	}
+	
 
 }
 @media(min-width:1100px) and (max-width:1200px){
@@ -214,8 +231,10 @@
 	.intro{
 		margin-top: 5%;
 	}
+	.comingText{
+		font-size: 2em;
+	}
 
-	
 }
 
 @media(min-width:1200px) and (max-width:1300px){
@@ -232,6 +251,10 @@
 	.intro{
 		width: 40%; 
 	}
+	.comingText{
+		font-size: 2em;
+	}
+	
 	
 }
 @media(min-width:1300px) and (max-width:1400px){
@@ -240,6 +263,9 @@
 	}
 	.intro{
 		width: 40%; 
+	}
+	.comingText{
+		font-size: 2em;
 	}
 	
 }
