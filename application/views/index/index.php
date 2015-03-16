@@ -6,13 +6,19 @@
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/style.css") ?>>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/media.css") ?>>
 	<meta name="viewport" content="width=device-width">
+	<!-- js -->
+	<script type="text/javascript" src=<?php echo base_url("resources/js/plugins/jquery-1.11.2.min.js") ?>></script>
+	<script type="text/javascript" src=<?php echo base_url("resources/js/views/index/functions.js") ?>></script>
+	<script type="text/javascript" src=<?php echo base_url("resources/js/views/index/script.js") ?>></script>
 </head>
 <body>
 	<div class="intro">
-		<img src=<?php echo base_url("resources/img/index/solo-borde.png")?> class='imgLooop'>	
-		<video  autoplay loop muted id="bgvid"> <!-- poster="polina.jpg"-->
-			<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?> type="video/mp4"  ><!---->
-		</video>
+	
+		<img src=<?php echo base_url("resources/img/index/Solo-borde2.png")?> class='imgLooop'>	
+		<!-- <img src=<?php echo base_url("resources/img/index/soloborde.gif")?> class='imgLooop2'>	-->
+		<!-- <video autoplay muted id="bgvid"> 
+			<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?> type="video/mp4"  >
+		</video> -->
 	</div>
 	<div class='container-fluid main todo'>
 		<div class="cuerpo col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">

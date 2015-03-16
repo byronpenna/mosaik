@@ -14,10 +14,10 @@
 </head>
 <body >
 	<!-- autoplay loop -->
-	<video   id="bgvid"> <!-- poster="polina.jpg"-->
-		<source src=<?php echo base_url("resources/videos/mosaik_loop_smallwebm.webm") ?>>
-		<source src=<?php echo base_url("resources/videos/mosaik_loop_smallwebm.webm") ?> > <!-- type="video/webm" -->
-		<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?>  ><!--type="video/mp4"-->
+	<video  autoplay id="bgvid"> <!-- poster="polina.jpg"-->
+		<!-- <source src=<?php echo base_url("resources/videos/mosaik_loop_smallwebm.webm") ?>>
+		<source src=<?php echo base_url("resources/videos/mosaik_loop_smallwebm.webm") ?> > <!-- type="video/webm" --> -->
+		<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?> type="video/mp4" ><!---->
 	</video>
 
 </body>

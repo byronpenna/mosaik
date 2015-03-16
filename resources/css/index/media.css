@@ -14,6 +14,11 @@
 		margin-top: 12%;
 		/*background: green;*/
 	}
+	.intro{
+		margin-top: 15%;
+		width: 100%;
+	}
+	
 }
 
 @media(min-width:300px) and (max-width:400px){
@@ -52,6 +57,10 @@
 	.menuSection{
 		padding: 0;
 	}
+	.intro{
+		margin-top: 15%;
+		width: 100%;
+	}
 	
 	
 }
@@ -88,6 +97,10 @@
 	.comingText{
 		font-size: 1.2em;
 	}
+	.intro{
+		margin-top: 15%;
+		width: 100%;
+	}
 	
 }
 @media(min-width:500px) and (max-width:600px){
@@ -102,6 +115,11 @@
 	.imgLogo, .imgLogoMovil{
 		width: 90%;
 	}
+	.intro{
+		margin-top: 15%;
+		width: 100%;
+	}
+	
 }
 
 @media(min-width:600px) and (max-width:700px){
@@ -109,7 +127,11 @@
 	.main{
 		margin-top: 8%;
 	}
-
+	.intro{
+		margin-top: 5%;
+		width: 100%;
+	}
+	
 
 }
 @media(min-width:700px) and (max-width:800px){
@@ -131,6 +153,11 @@
 	.imgLogo, .imgLogoMovil{
 		width: 80%;
 	}
+	.intro{
+		/*margin-top: 3%;*/
+		width: 100%;
+	}
+	
 	
 }
 @media(min-width:800px) and (max-width:900px){
@@ -138,7 +165,11 @@
 	.main{
 		margin-top: 8%;
 	}
-
+	.intro{
+		/*margin-top: 3%;*/
+		width: 90%;
+	}
+	
 
 }
 @media(min-width:900px) and (max-width:1000px){
@@ -148,7 +179,12 @@
 	.main{
 		margin-top: 6%;
 	}
-	
+	.intro{
+		margin-top: 7%;
+	}
+	body{
+		background: pink;
+	}
 }
 @media(min-width:1000px) and (max-width:1100px){
 	.menuSection div{
@@ -160,8 +196,10 @@
 	.imgLogo, .imgLogoMovil{
 		width: 90%;
 	}
-	
-	
+	.intro{
+		margin-top: 7%;
+	}
+
 }
 @media(min-width:1100px) and (max-width:1200px){
 	body{
@@ -173,6 +211,11 @@
 	.imgLogo, .imgLogoMovil{
 		width: 90%;
 	}
+	.intro{
+		margin-top: 5%;
+	}
+
+	
 }
 
 @media(min-width:1200px) and (max-width:1300px){
@@ -182,9 +225,23 @@
 	.main{
 		margin-top: 2.5%;
 	}
-	body{
-		/*background: red;*/
+	.intro{
+		margin-top: 5%;
 	}
+	
+	.intro{
+		width: 40%; 
+	}
+	
+}
+@media(min-width:1300px) and (max-width:1400px){
+	.intro{
+		margin-top: 5%;
+	}
+	.intro{
+		width: 40%; 
+	}
+	
 }
 @media(max-width:400px){
 	.comingText{

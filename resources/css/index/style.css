@@ -17,6 +17,10 @@
 	width: 70%;
 }
 /*Diseño */
+	.intro{
+		margin-top: 5%;
+		background: url('../../img/index/soloborde.gif');
+	}
 	.imgLogoMovil{
 		display: none;
 	}
@@ -105,14 +109,12 @@
 }
 .intro{
 	width: 50%;
-	position: relative;
-	height: 400px;
+	/*position: relative;*/
+	min-height: auto;
+	margin: 0 auto;
 }
-.imgLooop{
-	position: absolute;
-	z-index: 2;
+.imgLooop,.imgLooop2{
 	width: 100%;
-	height: 100%;	
 }
 video#bgvid {
 	width: 	100%;
