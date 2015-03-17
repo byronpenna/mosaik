@@ -1,4 +1,7 @@
 @media(min-width:200px) and (max-width:300px){
+		
+}
+@media(min-width:200px) and (max-width:300px){
 	
 	
 
@@ -18,11 +21,18 @@
 		margin-top: 15%;
 		width: 100%;
 	}
+	.comingText{
+		/*margin-top: 5%;*/
+	}
+	
 	
 }
 
 @media(min-width:300px) and (max-width:400px){
 	
+	.ComingRow{
+		margin-top: 10%;
+	}
 	.logoSection{
 		padding: 0;
 	}
@@ -30,14 +40,14 @@
 		/*border-right:  none;*/
 	}
 	.menuRow{
-		margin-top: 10%;
+		margin-top: 5%;
 	}
 	.main{
 		margin-top: 10%;
 		/*background: green;*/
 	}
 	.menuSection div{
-		font-size: 0.58em;
+		font-size: 0.5em;
 	}
 	.imgLogo,.imgLogoMovil{
 		width: 100%;
@@ -48,11 +58,14 @@
 	.sloganSection{
 		font-size: 1em;
 	}
+	.rowFooter{
+		margin-top: 10%;
+	}
 	.rowFooter h2{
 		font-size: 0.8em;
 	}
 	.comingText{
-		font-size: 0.8em;
+		font-size: 0.5em;
 	}
 	.menuSection{
 		padding: 0;
@@ -61,16 +74,16 @@
 		margin-top: 15%;
 		width: 100%;
 	}
-
+	.rombos{
+		width: 20%;
+	}
 	
 }
 @media(min-width:400px) and (max-width:500px){
 	.main{
-		margin-top: 15%;
+		margin-top: 8%;
 	}
-	body{
-		background: pink;
-	}
+	
 	/*.menuText{
 		display: block;
 		width: 100%;
@@ -85,8 +98,11 @@
 		/*background: purple;*/
 		margin: 0;
 	}
-	.menuRow{
+	.ComingRow{
 		margin-top: 10%;
+	}
+	.menuRow{
+		margin-top: 5%;
 	}
 	.menuSection{
 		/*background: red;*/
@@ -99,6 +115,9 @@
 	}
 	.comingText{
 		font-size: 1.2em;
+	}
+	.rowFooter{
+		margin-top: 10%;
 	}
 	.intro{
 		margin-top: 15%;
@@ -142,6 +161,7 @@
 	
 }
 @media(min-width:700px) and (max-width:800px){
+	
 	.imgLogo,.imgLogoMovil{
 		width: 60%;
 	}
@@ -152,10 +172,10 @@
 		font-size: 0.9em;		
 	}
 	.menuRow{
-		margin-top: 5%;
+		margin-top: 2%;
 	}
 	.main{
-		margin-top: 5%;
+		margin-top: 0;
 	}
 	.imgLogo, .imgLogoMovil{
 		width: 80%;
@@ -167,10 +187,15 @@
 	.comingText{
 		font-size: 1.5em;
 	}
-	
+	.ComingRow{
+		margin-top: 5%;
+	}
+	.rowFooter{
+		margin-top: 6%;
+	}
 }
 @media(min-width:800px) and (max-width:900px){
-
+		
 	.main{
 		margin-top: 2%;
 	}
@@ -178,10 +203,19 @@
 		/*margin-top: 3%;*/
 		width: 90%;
 	}
-	.comingText{
-		font-size: 2em;
+	.ComingRow{
+		margin-top: 9%;
 	}
-	
+	.comingText{
+		font-size: 1.8em;
+		margin: 0;
+	}
+	.rowFooter{
+		margin-top: 10%;
+	}
+	.rombos{
+		width: 20%;
+	}
 
 }
 @media(min-width:900px) and (max-width:1000px){
@@ -189,22 +223,31 @@
 		font-size: 0.79em;		
 	}
 	.main{
-		margin-top: 1%;
+		margin-top: 3%;
 	}
 	.intro{
 		margin-top: 7%;
 	}
-	
-	.comingText{
-		font-size: 2em;
+	.menuRow{
+		margin-top: 3%;
 	}
+	.ComingRow{
+		margin-top: 6%;
+	}
+	.comingText{
+		font-size: 1.5em;
+	}
+	.rowFooter{
+		margin-top: 6.5%;
+	}
+	
 }
 @media(min-width:1000px) and (max-width:1100px){
 	.menuSection div{
 		font-size: 0.8em;		
 	}
 	.main{
-		margin-top: 1%;
+		margin-top: 5%;
 	}
 	.imgLogo, .imgLogoMovil{
 		width: 90%;
@@ -213,15 +256,13 @@
 		margin-top: 7%;
 	}
 	.comingText{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
 	
 
 }
 @media(min-width:1100px) and (max-width:1200px){
-	body{
-		/*background: pink;*/
-	}
+	
 	.main{
 		margin-top: 2.5%;
 	}
@@ -232,9 +273,17 @@
 		margin-top: 5%;
 	}
 	.comingText{
-		font-size: 2em;
+		font-size: 1.5em;
 	}
-
+	.menuRow{
+		margin-top: 4%;
+	}
+	.ComingRow{
+		margin-top: 5%;
+	}
+	.rowFooter{
+		margin-top: 6%;
+	}
 }
 
 @media(min-width:1200px) and (max-width:1300px){
@@ -249,7 +298,7 @@
 	}
 	
 	.intro{
-		width: 40%; 
+		width: 30%; 
 	}
 	.comingText{
 		font-size: 2em;
@@ -262,10 +311,11 @@
 		margin-top: 5%;
 	}
 	.intro{
-		width: 40%; 
+		width: 30%; 
 	}
 	.comingText{
 		font-size: 2em;
+
 	}
 	
 }

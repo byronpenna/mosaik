@@ -2,7 +2,7 @@
 /*Temporal*/
 /*Temporal*/
 .pink{
-	background: pink;
+	/*background: pink;*/
 }
 .red{
 	background: red;
@@ -18,8 +18,13 @@
 }
 /*Diseño */
 	.intro{
-		margin-top: 5%;
-		background: url('../../img/index/soloborde.gif');
+		/*margin-top: 5%;*/
+		background: url('../../img/index/mosaik_loop_gif.gif') no-repeat center ;
+		 /*no-repeat center center fixed*/
+	    -webkit-background-size: cover;
+	  	-moz-background-size: cover;
+	  	-o-background-size: cover;
+	  	background-size: cover;
 	}
 	.imgLogoMovil{
 		display: none;
@@ -59,7 +64,11 @@
 			text-align: center;
 			color: #4f4f4f;
 			font-weight: bold;
-			font-family: 'Impact';
+			font-family: 'lato-Regular';
+			display: inline-block;
+			vertical-align: bottom;
+			margin: 0;
+			margin-bottom: 0.6%;
 		}
 		.ComingRow{
 			margin-top: 3%;
@@ -72,6 +81,7 @@
 		.rowFooter h2{
 			font-size: 1em;
 			margin: 0;
+			font-family: 'lato'
 		}
 		.rowFooter h2:nth-child(1){
 			/*color: #2e3188;*/
@@ -106,14 +116,22 @@
 	text-align: center;
 }
 .main{
-	display: none;
+	/*display: none;*/
 }
 .intro{
 	width: 50%;
 	/*position: relative;*/
 	min-height: auto;
 	margin: 0 auto;
-	/*display: none;*/
+	display: none;
+}
+.cming{
+	text-align: center;
+	/*background: green;*/
+}
+.rombos{
+	width: 30%;
+	vertical-align: bottom;
 }
 .imgLooop,.imgLooop2{
 	width: 100%;

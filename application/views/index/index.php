@@ -3,6 +3,7 @@
 <head>
 	<title>Mosaik</title>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/bootstrap/css/bootstrap.css") ?>>
+	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/fonts.css") ?>>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/style.css") ?>>
 	<link rel="stylesheet" type="text/css" href=<?php echo base_url("resources/css/index/media.css") ?>>
 	<meta name="viewport" content="width=device-width">
@@ -13,7 +14,11 @@
 </head>
 <body>
 	<div class="intro">
-	
+		<audio controls autoplay style='display:none'>
+		  <!-- <source src="horse.ogg" type="audio/ogg"> -->
+		  <source src=<?php echo base_url("resources\audio\index/mosaik_loop_audioonly.mp3") ?> type="audio/mpeg">
+			Your browser does not support the audio element.
+		</audio>
 		<img src=<?php echo base_url("resources/img/index/Solo-borde2.png")?> class='imgLooop'>	
 		<!-- <img src=<?php echo base_url("resources/img/index/soloborde.gif")?> class='imgLooop2'>	-->
 		<!-- <video autoplay muted id="bgvid"> 
@@ -47,15 +52,17 @@
 				</div>	
 			</div>
 			<div class="row ComingRow">
-				<div class="col-lg-4">
+				<!-- <div class="col-lg-4">
 					
-				</div>
-				<div class="col-lg-4">
+				</div> -->
+				<div class="col-lg-12 cming">
+					<img src=<?php echo base_url("resources/img/index/rombos1.png") ?> class='rombos' >
 					<h2 class='comingText'>coming soon</h2>
+					<img src=<?php echo base_url("resources/img/index/rombos.png") ?> class='rombos' >
 				</div>
-				<div class="col-lg-4">
+				<!-- <div class="col-lg-4">
 					
-				</div>
+				</div> -->
 			</div>
 			<div class="row rowFooter">
 				<h2>For Amazing Ideas Contact Us</h2>
