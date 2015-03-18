@@ -116,14 +116,14 @@
 	text-align: center;
 }
 .main{
-	display: none;
+	/*display: none;*/
 }
 .intro{
 	width: 50%;
 	/*position: relative;*/
 	min-height: auto;
 	margin: 0 auto;
-	/*display: none;*/
+	display: none;
 }
 .cming{
 	text-align: center;

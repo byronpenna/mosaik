@@ -13,18 +13,13 @@
 	<script type="text/javascript" src=<?php echo base_url("resources/js/views/index/script.js") ?>></script>
 </head>
 <body>
-	<div class="intro">
+	<!-- <div class="intro">
 		<audio controls autoplay style='display:none'>
-		  <!-- <source src="horse.ogg" type="audio/ogg"> -->
 		  <source src=<?php echo base_url("resources\audio\index/mosaik_loop_audioonly.mp3") ?> type="audio/mpeg">
 			Your browser does not support the audio element.
 		</audio>
 		<img src=<?php echo base_url("resources/img/index/Solo-borde2.png")?> class='imgLooop'>	
-		<!-- <img src=<?php echo base_url("resources/img/index/soloborde.gif")?> class='imgLooop2'>	-->
-		<!-- <video autoplay muted id="bgvid"> 
-			<source src=<?php echo base_url("resources/videos/mosaik_loop_small.mp4") ?> type="video/mp4"  >
-		</video> -->
-	</div>
+	</div> -->
 	<div class='container-fluid main todo'>
 		<div class="cuerpo col-lg-offset-3 col-lg-6 col-md-offset-3 col-md-6 col-sm-offset-2 col-sm-8 col-xs-12">
 			<div class="row">
