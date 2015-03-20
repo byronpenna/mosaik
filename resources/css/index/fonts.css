@@ -1,8 +1,8 @@
 @font-face {
  font-family: 'lato'; /* requerido */
- src: '../../fonts/lato/Lato-black.ttf';                        /* requerido */
+ src: url('../../fonts/lato/Lato-black.ttf');                        /* requerido */
 }
 @font-face {
  font-family: 'lato-Regular'; /* requerido */
- src: '../../fonts/lato/lato-Regular.ttf';                        /* requerido */
+ src: url('../../fonts/lato/Lato-Regular.ttf');                        /* requerido */
 }
